@@ -1,0 +1,39 @@
+.sectionFour {
+    .mainTitleRow {
+        padding: 2.5em;
+        h1 {
+            font-weight: bold;
+        }
+    }
+    .imageRow {
+        margin-top: 1.2em;
+        .leftCol {
+            img {
+                max-width: 67%;
+                height: auto;
+                border-radius: 3px;
+                margin-left: 4rem;
+            }
+        }
+    }
+    .rightCol {
+        margin-left: 1rem;
+        width: 70%;
+        h2 {
+            font-weight: bold;
+            line-height: 1em;
+            margin-bottom: 2rem;
+        }
+        .desc {
+            color: grey;
+        }
+        button {
+            border: none;
+            padding: .7em 2.1em;
+            background: #53c2ac;
+            border-radius: 2em;
+            color: white;
+            margin-top: .5rem;
+        }
+    }
+}

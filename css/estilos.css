@@ -6,6 +6,10 @@ nav:first-of-type {
   padding: 0.3 1rem !important;
 }
 
+section:nth-child(odd) {
+  background: #f1f1f1;
+}
+
 .sectionOneImg {
   overflow-x: hidden;
 }
@@ -71,7 +75,6 @@ nav:first-of-type {
 }
 .SectionTwo .flexdad .card .card-body a {
   color: #53c2ac;
-  font-weight: bold;
 }
 .SectionTwo .flexdad .card .flaticonWrapper {
   width: 3em;
@@ -113,6 +116,42 @@ nav:first-of-type {
 }
 .sectionThree .row .rightCol img {
   width: 60px;
+}
+
+.sectionFour .mainTitleRow {
+  padding: 2.5em;
+}
+.sectionFour .mainTitleRow h1 {
+  font-weight: bold;
+}
+.sectionFour .imageRow {
+  margin-top: 1.2em;
+}
+.sectionFour .imageRow .leftCol img {
+  max-width: 67%;
+  height: auto;
+  border-radius: 3px;
+  margin-left: 4rem;
+}
+.sectionFour .rightCol {
+  margin-left: 1rem;
+  width: 70%;
+}
+.sectionFour .rightCol h2 {
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 2rem;
+}
+.sectionFour .rightCol .desc {
+  color: grey;
+}
+.sectionFour .rightCol button {
+  border: none;
+  padding: 0.7em 2.1em;
+  background: #53c2ac;
+  border-radius: 2em;
+  color: white;
+  margin-top: 0.5rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */
