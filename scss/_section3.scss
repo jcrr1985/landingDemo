@@ -2,8 +2,33 @@
     .row {
         .leftCol {
             img {
-                max-width: 80%;
+                max-width: 95%;
                 height: auto;
+                margin-top: 5rem;
+                margin-left: 8rem;
+            }
+        }
+        .rightCol {
+            .rightcolContentWrapper {
+                margin-top: 8.6rem;
+                margin-left: 7rem;
+                width: 60%;
+            }
+            h1 {
+                font-weight: bolder;
+            }
+            .descrptn {
+                color: grey;
+            }
+            .card {
+                width: 100%;
+                padding: 1rem;
+                .descOfMediaObj {
+                    color: grey;
+                }
+            }
+            img {
+                width: 60px;
             }
         }
     }

@@ -88,8 +88,31 @@ nav:first-of-type {
 }
 
 .sectionThree .row .leftCol img {
-  max-width: 80%;
+  max-width: 95%;
   height: auto;
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+.sectionThree .row .rightCol .rightcolContentWrapper {
+  margin-top: 8.6rem;
+  margin-left: 7rem;
+  width: 60%;
+}
+.sectionThree .row .rightCol h1 {
+  font-weight: bolder;
+}
+.sectionThree .row .rightCol .descrptn {
+  color: grey;
+}
+.sectionThree .row .rightCol .card {
+  width: 100%;
+  padding: 1rem;
+}
+.sectionThree .row .rightCol .card .descOfMediaObj {
+  color: grey;
+}
+.sectionThree .row .rightCol img {
+  width: 60px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
