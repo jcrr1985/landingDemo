@@ -1,0 +1,33 @@
+    .sectionOneImg {
+        overflow-x: hidden;
+        img {
+            width: 100%;
+            margin-top: 10%;
+        }
+    }
+    
+    .sectionOneText {
+        display: flex;
+        justify-content: center;
+        .capsula1left {
+            width: 70%;
+            margin-top: 20%;
+            .header1 {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1em;
+            }
+            button {
+                border: none;
+                padding: .7em 2.2em;
+                background: #53c2ac;
+                border-radius: 2em;
+                color: white;
+                margin-top: 5%;
+            }
+        }
+    }
+    
+    .greenDot {
+        color: #53c2ac;
+    }

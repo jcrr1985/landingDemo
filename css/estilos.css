@@ -1,0 +1,95 @@
+section {
+  height: 100vh;
+}
+
+nav:first-of-type {
+  padding: 0.3 1rem !important;
+}
+
+.sectionOneImg {
+  overflow-x: hidden;
+}
+.sectionOneImg img {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.sectionOneText {
+  display: flex;
+  justify-content: center;
+}
+.sectionOneText .capsula1left {
+  width: 70%;
+  margin-top: 20%;
+}
+.sectionOneText .capsula1left .header1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1em;
+}
+.sectionOneText .capsula1left button {
+  border: none;
+  padding: 0.7em 2.2em;
+  background: #53c2ac;
+  border-radius: 2em;
+  color: white;
+  margin-top: 5%;
+}
+
+.greenDot {
+  color: #53c2ac;
+}
+
+.SectionTwo {
+  height: auto;
+}
+.SectionTwo .mainTitleRow {
+  padding: 2.5em;
+}
+.SectionTwo .mainTitleRow h2 {
+  font-weight: bold;
+}
+.SectionTwo .featuresWrapper {
+  width: 80%;
+  background: red;
+  text-align: -webkit-center;
+}
+.SectionTwo .row {
+  justify-content: center;
+}
+.SectionTwo .flexdad {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-bottom: 8%;
+}
+.SectionTwo .flexdad .card {
+  width: 30%;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.SectionTwo .flexdad .card .card-body a {
+  color: #53c2ac;
+  font-weight: bold;
+}
+.SectionTwo .flexdad .card .flaticonWrapper {
+  width: 3em;
+  height: 3em;
+  background: #53c2ac;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SectionTwo .flexdad .card .flaticon {
+  font-size: 25px;
+  margin-top: -4px;
+}
+
+.sectionThree .row .leftCol img {
+  max-width: 80%;
+  height: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */

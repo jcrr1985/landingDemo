@@ -1,0 +1,48 @@
+@import "mixins";
+.SectionTwo {
+    height: auto;
+    .mainTitleRow {
+        padding: 2.5em;
+        h2 {
+            font-weight: bold;
+        }
+    }
+    .features {}
+    .featuresWrapper {
+        width: 80%;
+        background: red;
+        text-align: -webkit-center;
+    }
+    .row {
+        justify-content: center;
+    }
+    .flexdad {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        flex-wrap: wrap;
+        margin-bottom: 8%;
+        .card {
+            width: 30%;
+            margin-top: 13px;
+            margin-bottom: 13px;
+            .card-body {
+                a {
+                    color: #53c2ac;
+                    font-weight: bold;
+                }
+            }
+            .flaticonWrapper {
+                width: 3em;
+                height: 3em;
+                background: #53c2ac;
+                border-radius: 50%;
+                @include flexboxDoubleCenter;
+            }
+            .flaticon {
+                font-size: 25px;
+                margin-top: -4px;
+            }
+        }
+    }
+}
