@@ -20,3 +20,10 @@
   body {
       overflow-x: hidden;
   }
+  
+  [class^="flaticon-"]:before,
+  [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after,
+  [class*=" flaticon-"]:after {
+      font-size: 30px;
+  }
