@@ -10,9 +10,16 @@ section:nth-child(odd) {
   background: #f1f1f1;
 }
 
-.sectionOneImg {
+@media screen and (max-width: 812px) {
+  section {
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}
+body {
   overflow-x: hidden;
 }
+
 .sectionOneImg img {
   width: 100%;
   margin-top: 10%;
@@ -61,22 +68,15 @@ section:nth-child(odd) {
 .SectionTwo .row {
   justify-content: center;
 }
-.SectionTwo .flexdad {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  flex-wrap: wrap;
-  margin-bottom: 8%;
-}
-.SectionTwo .flexdad .card {
+.SectionTwo .card {
   width: 30%;
   margin-top: 13px;
   margin-bottom: 13px;
 }
-.SectionTwo .flexdad .card .card-body a {
+.SectionTwo .card .card-body a {
   color: #53c2ac;
 }
-.SectionTwo .flexdad .card .flaticonWrapper {
+.SectionTwo .card .flaticonWrapper {
   width: 3em;
   height: 3em;
   background: #53c2ac;
@@ -85,19 +85,32 @@ section:nth-child(odd) {
   justify-content: center;
   align-items: center;
 }
-.SectionTwo .flexdad .card .flaticon {
+.SectionTwo .card .flaticon {
   font-size: 25px;
   margin-top: -4px;
 }
 
+.sectionThree .row .title {
+  text-align: right;
+  margin-top: 2rem;
+}
+.sectionThree .row .title h1 {
+  margin-right: 5em;
+}
+.sectionThree .row .leftCol {
+  margin-top: 0.1rem;
+}
 .sectionThree .row .leftCol img {
   max-width: 95%;
   height: auto;
-  margin-top: 5rem;
-  margin-left: 8rem;
+  margin-top: -5rem;
+  margin-left: 5rem;
+}
+.sectionThree .row .rightCol {
+  margin-top: 1rem;
 }
 .sectionThree .row .rightCol .rightcolContentWrapper {
-  margin-top: 8.6rem;
+  margin-top: 3rem;
   margin-left: 7rem;
   width: 60%;
 }
@@ -118,6 +131,31 @@ section:nth-child(odd) {
   width: 60px;
 }
 
+@media screen and (max-width: 575px) {
+  .sectionThree .row .rightCol .rightcolContentWrapper {
+    margin-top: 0.3em;
+    margin-left: 1em;
+  }
+
+  .sectionThree .row .title {
+    text-align: left;
+    margin-left: 6em;
+  }
+
+  .sectionThree .row .rightCol .rightcolContentWrapper {
+    width: 80%;
+  }
+
+  .sectionThree .row .rightCol {
+    margin-top: -2rem;
+    margin-left: 4em;
+  }
+
+  .sectionThree .row .leftCol img {
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+}
 .sectionFour .mainTitleRow {
   padding: 2.5em;
 }

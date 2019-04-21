@@ -15,32 +15,25 @@
     .row {
         justify-content: center;
     }
-    .flexdad {
-        display: flex;
-        justify-content: space-around;
-        width: 80%;
-        flex-wrap: wrap;
-        margin-bottom: 8%;
-        .card {
-            width: 30%;
-            margin-top: 13px;
-            margin-bottom: 13px;
-            .card-body {
-                a {
-                    color: #53c2ac;
-                }
+    .card {
+        width: 30%;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        .card-body {
+            a {
+                color: #53c2ac;
             }
-            .flaticonWrapper {
-                width: 3em;
-                height: 3em;
-                background: #53c2ac;
-                border-radius: 50%;
-                @include flexboxDoubleCenter;
-            }
-            .flaticon {
-                font-size: 25px;
-                margin-top: -4px;
-            }
+        }
+        .flaticonWrapper {
+            width: 3em;
+            height: 3em;
+            background: #53c2ac;
+            border-radius: 50%;
+            @include flexboxDoubleCenter;
+        }
+        .flaticon {
+            font-size: 25px;
+            margin-top: -4px;
         }
     }
 }

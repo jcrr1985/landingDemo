@@ -1,16 +1,25 @@
 .sectionThree {
     .row {
+        .title {
+            text-align: right;
+            margin-top: 2rem;
+            h1 {
+                margin-right: 5em;
+            }
+        }
         .leftCol {
+            margin-top: .1rem;
             img {
                 max-width: 95%;
                 height: auto;
-                margin-top: 5rem;
-                margin-left: 8rem;
+                margin-top: -5rem;
+                margin-left: 5rem;
             }
         }
         .rightCol {
+            margin-top: 1rem;
             .rightcolContentWrapper {
-                margin-top: 8.6rem;
+                margin-top: 3rem;
                 margin-left: 7rem;
                 width: 60%;
             }
@@ -31,5 +40,27 @@
                 width: 60px;
             }
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .sectionThree .row .rightCol .rightcolContentWrapper {
+        margin-top: .3em;
+        margin-left: 1em;
+    }
+    .sectionThree .row .title {
+        text-align: left;
+        margin-left: 6em;
+    }
+    .sectionThree .row .rightCol .rightcolContentWrapper {
+        width: 80%;
+    }
+    .sectionThree .row .rightCol {
+        margin-top: -2rem;
+        margin-left: 4em;
+    }
+    .sectionThree .row .leftCol img {
+        margin-top: 0rem;
+        margin-left: 0rem;
     }
 }
