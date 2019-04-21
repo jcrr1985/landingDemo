@@ -40,7 +40,18 @@
 
 @media screen and (max-width:575px) {
     .sectionFour .rightCol {
-        margin-left: 4rem;
         margin-top: 4.2rem;
+    }
+    .sectionFour .imageRow {
+        .leftCol {
+            text-align: -webkit-center;
+            text-align: center;
+            img {
+                margin-left: 0px;
+            }
+        }
+        .rightColWrapper {
+            text-align: -webkit-center;
+        }
     }
 }

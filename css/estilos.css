@@ -75,6 +75,9 @@ body {
 .SectionTwo .row {
   justify-content: center;
 }
+.SectionTwo .row div {
+  text-align: -webkit-center;
+}
 .SectionTwo .card {
   width: 90%;
   margin-top: 13px;
@@ -155,7 +158,8 @@ body {
 
   .sectionThree .row .rightCol {
     margin-top: -2rem;
-    margin-left: 4em;
+    text-align: -webkit-center;
+    text-align: center;
   }
 
   .sectionThree .row .leftCol img {
@@ -201,8 +205,18 @@ body {
 
 @media screen and (max-width: 575px) {
   .sectionFour .rightCol {
-    margin-left: 4rem;
     margin-top: 4.2rem;
+  }
+
+  .sectionFour .imageRow .leftCol {
+    text-align: -webkit-center;
+    text-align: center;
+  }
+  .sectionFour .imageRow .leftCol img {
+    margin-left: 0px;
+  }
+  .sectionFour .imageRow .rightColWrapper {
+    text-align: -webkit-center;
   }
 }
 
