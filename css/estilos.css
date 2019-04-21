@@ -192,4 +192,11 @@ body {
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 575px) {
+  .sectionFour .rightCol {
+    margin-left: 4rem;
+    margin-top: 4.2rem;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
