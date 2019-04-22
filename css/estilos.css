@@ -101,9 +101,9 @@ h2 {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .sectionOneText .capsula1left {
-    width: 100%;
+    width: 90%;
     margin-top: 8%;
     margin-left: 0px;
   }
@@ -114,17 +114,13 @@ h2 {
   .section1 .brandTitle {
     text-align: start;
   }
-  .section1 .mainTitleRow {
-    position: relative;
-    top: -25px;
-  }
 
   .navbar {
     position: absolute;
     right: 0;
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 576px) {
   .lineBreaker::before {
     content: "\a";
     white-space: pre;
@@ -273,7 +269,7 @@ h2 {
 }
 
 .sectionFour .mainTitleRow {
-  padding: 1.5em;
+  padding: 2.5em;
 }
 .sectionFour .mainTitleRow h1 {
   font-weight: bold;
@@ -285,7 +281,7 @@ h2 {
   max-width: 67%;
   height: auto;
   border-radius: 3px;
-  margin-left: 10rem;
+  margin-left: 4rem;
 }
 .sectionFour .rightCol {
   margin-left: 1rem;

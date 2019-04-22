@@ -42,10 +42,10 @@
         }
     }
     
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 576px) {
         .sectionOneText {
             .capsula1left {
-                width: 100%;
+                width: 90%;
                 margin-top: 8%;
                 margin-left: 0px;
             }
@@ -57,10 +57,6 @@
             .brandTitle {
                 text-align: start;
             }
-            .mainTitleRow {
-                position: relative;
-                top: -25px;
-            }
         }
         .navbar {
             position: absolute;
@@ -68,7 +64,7 @@
         }
     }
     
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 576px) {
         .lineBreaker::before {
             content: '\A';
             white-space: pre;
