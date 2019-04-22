@@ -255,6 +255,14 @@ h2 {
     margin-left: 0rem;
   }
 }
+.pigeonCheck li {
+  list-style: none;
+}
+
+.pigeonCheck li::before {
+  content: url("https://animasmarketing.com/wp-content/uploads/2017/07/checkmark3.png");
+}
+
 .sectionFour .mainTitleRow {
   padding: 1.5em;
 }
