@@ -1,83 +1,88 @@
-    .sectionOneImg {
-        img {
-            width: 113%;
-            margin-top: 5rem;
-            margin-left: 3rem;
-        }
-    }
-    
-    .sectionOneText {
-        display: flex;
-        justify-content: center;
-        .capsula1left {
-            width: 65%;
-            margin-top: 10rem;
-            margin-left: 6rem;
-            .header1 {
-                font-weight: bold;
-                line-height: 1em;
-                font-size: 55px;
-            }
-            .header2 {
-                margin-top: 10px;
-            }
-            button {
-                border: none;
-                padding: .7em 2.2em;
-                background: #53c2ac;
-                border-radius: 2em;
-                color: white;
-                margin-top: 5%;
+        .sectionOneImg {
+            img {
+                width: 113%;
+                margin-top: 5rem;
+                margin-left: 3rem;
             }
         }
-    }
-    
-    .greenDot {
-        color: #53c2ac;
-    }
-    
-    .section1 {
-        .brandTitle {
-            text-align: center;
-        }
-    }
-    
-    @media screen and (max-width: 576px) {
+        
         .sectionOneText {
+            display: flex;
+            justify-content: center;
             .capsula1left {
-                width: 90%;
-                margin-top: 8%;
-                margin-left: 0px;
-            }
-            .header1 {
-                font-size: 28px!important;
+                width: 65%;
+                margin-top: 10rem;
+                margin-left: 6rem;
+                .header1 {
+                    font-weight: bold;
+                    line-height: 1em;
+                    font-size: 55px;
+                }
+                .header2 {
+                    margin-top: 10px;
+                }
+                button {
+                    border: none;
+                    padding: .7em 2.2em;
+                    background: #53c2ac;
+                    border-radius: 2em;
+                    color: white;
+                    margin-top: 5%;
+                }
             }
         }
+        
+        .greenDot {
+            color: #53c2ac;
+        }
+        
         .section1 {
             .brandTitle {
-                text-align: start;
+                text-align: center;
             }
         }
-        .navbar {
-            position: absolute;
-            right: 0;
+        
+        @media screen and (max-width: 600px) {
+            .sectionOneImg img {
+                margin-left: -2rem;
+                margin-top: 0rem;
+                transform: scale(.8);
+            }
+            .sectionOneText {
+                .capsula1left {
+                    width: 90%;
+                    margin-top: 8%;
+                    margin-left: 0px;
+                }
+                .header1 {
+                    font-size: 28px!important;
+                }
+            }
+            .section1 {
+                .brandTitle {
+                    text-align: start;
+                }
+            }
+            .navbar {
+                position: absolute;
+                right: 0;
+            }
         }
-    }
-    
-    @media screen and (min-width: 576px) {
-        .lineBreaker::before {
-            content: '\A';
-            white-space: pre;
+        
+        @media screen and (min-width: 576px) {
+            .lineBreaker::before {
+                content: '\A';
+                white-space: pre;
+            }
         }
-    }
-    
-    .nav-link {
-        color: #555;
-        font-weight: bold;
-        padding-left: 1.5rem!important;
-        padding-right: 1.5rem!important;
-    }
-    
-    .section1 {
-        padding-top: 1px;
-    }
+        
+        .nav-link {
+            color: #555;
+            font-weight: bold;
+            padding-left: 1.5rem!important;
+            padding-right: 1.5rem!important;
+        }
+        
+        .section1 {
+            padding-top: 1px;
+        }

@@ -29,33 +29,20 @@ fetch('https://jsonplaceholder.typicode.com/users')
 var changer1 = document.getElementById("changer1");
 var changer2 = document.getElementById("changer2");
 var changer3 = document.getElementById("changer3");
-var changer4 = document.getElementById("changer3");
+var changer4 = document.getElementById("changer4");
 
 var r = document.getElementsByClassName('carousel-item');
 
-console.log(r);
+var changersArray = document.getElementsByClassName('changers');
 
-changer1.addEventListener('click', function() {
-    for (let i = 0; i < r.length; i++) {
-        r[i].classList.remove('active')
-    }
-    r[0].classList.add('active')
-});
-changer2.addEventListener('click', function() {
-    for (let i = 0; i < r.length; i++) {
-        r[i].classList.remove('active')
-    }
-    r[1].classList.add('active')
-});
-changer3.addEventListener('click', function() {
-    for (let i = 0; i < r.length; i++) {
-        r[i].classList.remove('active')
-    }
-    r[2].classList.add('active')
-});
-changer4.addEventListener('click', function() {
-    for (let i = 0; i < r.length; i++) {
-        r[i].classList.remove('active')
-    }
-    r[3].classList.add('active')
-});
+for (let index = 0; index < changersArray.length; index++) {
+
+    changersArray[index].addEventListener('click', function() {
+        for (let i = 0; i < r.length; i++) {
+            r[i].classList.remove('active')
+        }
+        r[index].classList.add('active')
+    });
+
+
+}
