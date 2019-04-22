@@ -36,8 +36,8 @@ body {
   position: relative;
 }
 
-.hid {
-  display: none;
+.colorGrey {
+  color: grey;
 }
 
 .sectionOneImg img {
@@ -54,9 +54,11 @@ body {
   margin-top: 20%;
 }
 .sectionOneText .capsula1left .header1 {
-  font-size: 50px;
   font-weight: bold;
   line-height: 1em;
+}
+.sectionOneText .capsula1left .header2 {
+  margin-top: 10px;
 }
 .sectionOneText .capsula1left button {
   border: none;
@@ -71,6 +73,30 @@ body {
   color: #53c2ac;
 }
 
+.section1 .brandTitle {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .section1 .brandTitle {
+    text-align: left;
+  }
+
+  .sectionOneText .capsula1left {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .header1 {
+    font-size: 29px;
+  }
+}
+@media screen and (min-width: 481px) {
+  span::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
 .SectionTwo {
   height: auto;
 }
@@ -95,6 +121,9 @@ body {
   width: 90%;
   margin-top: 13px;
   margin-bottom: 13px;
+}
+.SectionTwo .card:hover {
+  animation-name: jello;
 }
 .SectionTwo .card .card-body a {
   color: #53c2ac;

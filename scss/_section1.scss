@@ -12,9 +12,11 @@
             width: 70%;
             margin-top: 20%;
             .header1 {
-                font-size: 50px;
                 font-weight: bold;
                 line-height: 1em;
+            }
+            .header2 {
+                margin-top: 10px;
             }
             button {
                 border: none;
@@ -29,4 +31,30 @@
     
     .greenDot {
         color: #53c2ac;
+    }
+    
+    .section1 {
+        .brandTitle {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .section1 .brandTitle {
+            text-align: left;
+        }
+        .sectionOneText .capsula1left {
+            width: 100%;
+            margin-top: 5%;
+        }
+        .header1 {
+            font-size: 29px;
+        }
+    }
+    
+    @media screen and (min-width: 481px) {
+        span::before {
+            content: '\A';
+            white-space: pre;
+        }
     }
