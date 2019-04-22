@@ -1,7 +1,8 @@
     .sectionOneImg {
         img {
-            width: 100%;
-            margin-top: 10%;
+            width: 113%;
+            margin-top: 1rem;
+            margin-left: 3rem;
         }
     }
     
@@ -9,11 +10,13 @@
         display: flex;
         justify-content: center;
         .capsula1left {
-            width: 70%;
-            margin-top: 35%;
+            width: 65%;
+            margin-top: 24%;
+            margin-left: 6rem;
             .header1 {
                 font-weight: bold;
                 line-height: 1em;
+                font-size: 55px;
             }
             .header2 {
                 margin-top: 10px;
@@ -40,12 +43,15 @@
     }
     
     @media screen and (max-width: 480px) {
-        .sectionOneText .capsula1left {
-            width: 100%;
-            margin-top: 8%;
-        }
-        .header1 {
-            font-size: 29px;
+        .sectionOneText {
+            .capsula1left {
+                width: 100%;
+                margin-top: 8%;
+                margin-left: 0px;
+            }
+            .header1 {
+                font-size: 28px!important;
+            }
         }
         .section1 {
             .brandTitle {

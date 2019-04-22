@@ -57,9 +57,16 @@ h2 {
   border: none;
 }
 
+.shadow {
+  -moz-box-shadow: inset 0 0 1px #000000;
+  -webkit-box-shadow: inset 0 0 1px #000000;
+  box-shadow: inset 0 0 1px #000000;
+}
+
 .sectionOneImg img {
-  width: 100%;
-  margin-top: 10%;
+  width: 113%;
+  margin-top: 1rem;
+  margin-left: 3rem;
 }
 
 .sectionOneText {
@@ -67,12 +74,14 @@ h2 {
   justify-content: center;
 }
 .sectionOneText .capsula1left {
-  width: 70%;
-  margin-top: 35%;
+  width: 65%;
+  margin-top: 24%;
+  margin-left: 6rem;
 }
 .sectionOneText .capsula1left .header1 {
   font-weight: bold;
   line-height: 1em;
+  font-size: 55px;
 }
 .sectionOneText .capsula1left .header2 {
   margin-top: 10px;
@@ -98,10 +107,10 @@ h2 {
   .sectionOneText .capsula1left {
     width: 100%;
     margin-top: 8%;
+    margin-left: 0px;
   }
-
-  .header1 {
-    font-size: 29px;
+  .sectionOneText .header1 {
+    font-size: 28px !important;
   }
 
   .section1 .brandTitle {
@@ -192,6 +201,9 @@ h2 {
 }
 .sectionThree .row .rightCol h2 {
   font-weight: bolder;
+}
+.sectionThree .row .rightCol h5 {
+  text-align: left;
 }
 .sectionThree .row .rightCol .descrptn {
   color: grey;
