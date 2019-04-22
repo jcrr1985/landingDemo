@@ -122,9 +122,6 @@ body {
   margin-top: 13px;
   margin-bottom: 13px;
 }
-.SectionTwo .card:hover {
-  animation-name: jello;
-}
 .SectionTwo .card .card-body a {
   color: #53c2ac;
 }
@@ -260,6 +257,28 @@ body {
   .sectionFour .imageRow .rightColWrapper {
     text-align: -webkit-center;
   }
+}
+.sectionFive .title_image {
+  justify-content: center;
+  margin-top: 4rem;
+}
+.sectionFive .title_image h1 {
+  text-align: center;
+}
+.sectionFive .fetchDiv {
+  text-align: center;
+}
+.sectionFive p {
+  color: grey;
+  font-size: 30px;
+}
+
+.people {
+  width: 100px;
+}
+
+.carouselExampleControls {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
