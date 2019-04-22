@@ -61,6 +61,22 @@ h2 {
   box-shadow: 1px 1px 5px lightgrey;
 }
 
+.changers {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #9be5cd;
+}
+
+.changersRow {
+  justify-content: center;
+}
+
 .sectionOneImg img {
   width: 113%;
   margin-top: 5rem;
