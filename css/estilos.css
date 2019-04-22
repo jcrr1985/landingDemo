@@ -49,6 +49,10 @@ h2 {
   font-weight: bolder;
 }
 
+.footerText {
+  color: grey;
+}
+
 .sectionOneImg img {
   width: 100%;
   margin-top: 10%;
@@ -235,7 +239,7 @@ h2 {
   }
 }
 .sectionFour .mainTitleRow {
-  padding: 2.5em;
+  padding: 1.5em;
 }
 .sectionFour .mainTitleRow h1 {
   font-weight: bold;
@@ -247,7 +251,7 @@ h2 {
   max-width: 67%;
   height: auto;
   border-radius: 3px;
-  margin-left: 4rem;
+  margin-left: 10rem;
 }
 .sectionFour .rightCol {
   margin-left: 1rem;
@@ -358,8 +362,7 @@ h2 {
 #contact input[type=email],
 #contact input[type=tel],
 #contact input[type=url],
-#contact textarea,
-#contact button[type=submit] {
+#contact textarea {
   font-size: 14px;
   padding: 13px;
   width: 100%;
@@ -368,14 +371,12 @@ h2 {
   margin: 0 0 5px;
 }
 #contact button[type=submit] {
-  cursor: pointer;
-  width: 100%;
   border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+  padding: 0.7em 2.2em;
+  background: #53c2ac;
+  border-radius: 2em;
+  color: white;
+  margin-top: 5%;
 }
 
 #contact input[type=text]:hover,

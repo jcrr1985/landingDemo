@@ -16,7 +16,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
   .then(response => response.json())
   .then(function (json) {
     for (let i = 0; i < fraseArray.length; i++) {
-      fraseArray[i].innerHTML = json[i].body;
+      fraseArray[i].innerHTML = `"${json[i].body}"`;
     }
   });
 
