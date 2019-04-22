@@ -1,8 +1,10 @@
 section {
-  height: 100vh;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-nav:first-of-type {
+nav {
   padding: 0.3 1rem !important;
 }
 
@@ -10,10 +12,12 @@ section:nth-child(odd) {
   background: #f1f1f1;
 }
 
-@media screen and (max-width: 812px) {
-  section {
-    height: auto;
-    margin-bottom: 3rem;
+@media screen and (max-width: 516px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar button {
+    border: none;
   }
 }
 body {
@@ -40,6 +44,11 @@ body {
   color: grey;
 }
 
+h1,
+h2 {
+  font-weight: bolder;
+}
+
 .sectionOneImg img {
   width: 100%;
   margin-top: 10%;
@@ -51,7 +60,7 @@ body {
 }
 .sectionOneText .capsula1left {
   width: 70%;
-  margin-top: 20%;
+  margin-top: 35%;
 }
 .sectionOneText .capsula1left .header1 {
   font-weight: bold;
@@ -80,7 +89,7 @@ body {
 @media screen and (max-width: 480px) {
   .sectionOneText .capsula1left {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 8%;
   }
 
   .header1 {
@@ -90,9 +99,18 @@ body {
   .section1 .brandTitle {
     text-align: start;
   }
+  .section1 .mainTitleRow {
+    position: relative;
+    top: -25px;
+  }
+
+  .navbar {
+    position: absolute;
+    right: 0;
+  }
 }
 @media screen and (min-width: 481px) {
-  span::before {
+  .lineBreaker::before {
     content: "\a";
     white-space: pre;
   }
@@ -143,7 +161,7 @@ body {
   text-align: right;
   margin-top: 2rem;
 }
-.sectionThree .row .title h1 {
+.sectionThree .row .title h2 {
   margin-right: 5em;
 }
 .sectionThree .row .leftCol {
@@ -163,7 +181,7 @@ body {
   margin-left: 7rem;
   width: 60%;
 }
-.sectionThree .row .rightCol h1 {
+.sectionThree .row .rightCol h2 {
   font-weight: bolder;
 }
 .sectionThree .row .rightCol .descrptn {
@@ -185,20 +203,30 @@ body {
     margin-top: 0.3em;
     margin-left: 1em;
   }
+  .sectionThree .row .rightCol .rightcolContentWrapper .card {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 
   .sectionThree .row .title {
     text-align: left;
-    margin-left: 6em;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .sectionThree .row .rightCol .rightcolContentWrapper {
+    margin-left: 2rem;
     width: 80%;
+  }
+  .sectionThree .row .rightCol .rightcolContentWrapper p {
+    text-align: justify;
   }
 
   .sectionThree .row .rightCol {
     margin-top: -2rem;
     text-align: -webkit-center;
-    text-align: center;
+    text-align: right;
   }
 
   .sectionThree .row .leftCol img {
@@ -243,6 +271,10 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+  .sectionFour .mainTitleRow {
+    padding: 1rem;
+  }
+
   .sectionFour .rightCol {
     margin-top: 4.2rem;
   }
@@ -268,9 +300,14 @@ body {
 .sectionFive .fetchDiv {
   text-align: center;
 }
-.sectionFive p {
+.sectionFive p:nth-of-type(1) {
   color: grey;
   font-size: 30px;
+}
+.sectionFive p:nth-of-type(2) {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .people {
@@ -279,6 +316,134 @@ body {
 
 .carouselExampleControls {
   text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .sectionFive p:nth-of-type(1) {
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
+  .sectionFive .title_image {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+.sectionSix {
+  padding-top: 0px;
+  height: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.sectionSix .title {
+  text-align: center;
+}
+.sectionSix .formWrapper {
+  max-width: 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact {
+  padding: 2.5rem;
+  background: #fff;
+  margin-bottom: 2rem;
+}
+#contact input[type=text],
+#contact input[type=email],
+#contact input[type=tel],
+#contact input[type=url],
+#contact textarea,
+#contact button[type=submit] {
+  font-size: 14px;
+  padding: 13px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+}
+#contact button[type=submit] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact input[type=text]:hover,
+#contact input[type=email]:hover,
+#contact input[type=tel]:hover,
+#contact input[type=url]:hover,
+#contact textarea:hover {
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #aaa;
+  background: #e3def2;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type=submit]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type=submit]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.titleSix {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 575px) {
+  .sectionSix .formWrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

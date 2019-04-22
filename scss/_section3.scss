@@ -3,7 +3,7 @@
         .title {
             text-align: right;
             margin-top: 2rem;
-            h1 {
+            h2 {
                 margin-right: 5em;
             }
         }
@@ -23,7 +23,7 @@
                 margin-left: 7rem;
                 width: 60%;
             }
-            h1 {
+            h2 {
                 font-weight: bolder;
             }
             .descrptn {
@@ -47,18 +47,28 @@
     .sectionThree .row .rightCol .rightcolContentWrapper {
         margin-top: .3em;
         margin-left: 1em;
+        .card {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
     }
     .sectionThree .row .title {
         text-align: left;
-        margin-left: 6em;
+        margin-left: 8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .sectionThree .row .rightCol .rightcolContentWrapper {
+        margin-left: 2rem;
         width: 80%;
+        p {
+            text-align: justify;
+        }
     }
     .sectionThree .row .rightCol {
         margin-top: -2rem;
         text-align: -webkit-center;
-        text-align: center;
+        text-align: right;
     }
     .sectionThree .row .leftCol img {
         margin-top: 0rem;

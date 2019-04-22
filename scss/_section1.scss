@@ -10,7 +10,7 @@
         justify-content: center;
         .capsula1left {
             width: 70%;
-            margin-top: 20%;
+            margin-top: 35%;
             .header1 {
                 font-weight: bold;
                 line-height: 1em;
@@ -42,7 +42,7 @@
     @media screen and (max-width: 480px) {
         .sectionOneText .capsula1left {
             width: 100%;
-            margin-top: 5%;
+            margin-top: 8%;
         }
         .header1 {
             font-size: 29px;
@@ -51,11 +51,19 @@
             .brandTitle {
                 text-align: start;
             }
+            .mainTitleRow {
+                position: relative;
+                top: -25px;
+            }
+        }
+        .navbar {
+            position: absolute;
+            right: 0;
         }
     }
     
     @media screen and (min-width: 481px) {
-        span::before {
+        .lineBreaker::before {
             content: '\A';
             white-space: pre;
         }

@@ -1,8 +1,10 @@
   section {
-      height: 100vh;
+      height: auto;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
   }
   
-  nav:first-of-type {
+  nav {
       padding: .3 1rem !important;
   }
   
@@ -10,10 +12,12 @@
       background: #f1f1f1;
   }
   
-  @media screen and (max-width:812px) {
-      section {
-          height: auto;
-          margin-bottom: 3rem;
+  @media screen and (max-width:516px) {
+      .navbar {
+          justify-content: flex-end;
+          button {
+              border: none;
+          }
       }
   }
   
@@ -40,4 +44,9 @@
   .colorGrey {
       color: grey;
       ;
+  }
+  
+  h1,
+  h2 {
+      font-weight: bolder;
   }

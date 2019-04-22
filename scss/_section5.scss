@@ -9,9 +9,14 @@
     .fetchDiv {
         text-align: center;
     }
-    p {
+    p:nth-of-type(1) {
         color: grey;
         font-size: 30px;
+    }
+    p:nth-of-type(2) {
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
     }
 }
 
@@ -21,4 +26,17 @@
 
 .carouselExampleControls {
     text-align: center
+}
+
+@media screen and (max-width:575px) {
+    .sectionFive {
+        p:nth-of-type(1) {
+            font-size: 16px;
+            margin-top: 1.5rem;
+        }
+        .title_image {
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+        }
+    }
 }
