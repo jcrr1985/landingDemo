@@ -1,7 +1,6 @@
 .sectionThree {
     .row {
         .title {
-            text-align: right;
             margin-top: 2rem;
             h2 {
                 margin-right: 5em;
@@ -12,12 +11,14 @@
             img {
                 max-width: 95%;
                 height: auto;
-                margin-top: -5rem;
-                margin-left: 5rem;
+                margin-left: 9rem;
             }
         }
         .rightCol {
             margin-top: 1rem;
+            h1 {
+                margin-left: 7rem;
+            }
             .rightcolContentWrapper {
                 margin-top: 3rem;
                 margin-left: 7rem;
